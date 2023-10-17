@@ -5,11 +5,21 @@ body {
     font-size: 14px;
     line-height: 20px;
     color: #444444;
+    background: local;
+    background-color:antiquewhite ;
+  }
+
+  p {
+    text-align: center;
+    margin: 5px;
+    padding: 5px;
+    line-height: 20px;
   }
   
   h1 {
-    width: 555px;
-    margin: 0 auto 8px;
+    width: 100%;
+    margin: 3px;
+    padding:5px;
     font-family: "Arial", sans-serif;
     text-align: center;
     font-weight: normal;
@@ -18,8 +28,8 @@ body {
   }
 
   h2{
-    width: 320px;
-    margin: 0 auto 8px;
+    width: 100%;
+    margin: 5px;
     font-family: "Arial", sans-serif;
     text-align: center;
     font-weight: normal;
@@ -27,23 +37,60 @@ body {
     line-height: 26px;
 
   }
+
+  a {
+    margin: 3px;
+    padding: 4px;
+  }
   
-  img {
-    width: 13%;
-    align = "right"
+  li {
+    text-align: left;
   }
 
+  img {
+    width: 13%;
+  }
+
+  .content-right .image {
+    width: 65%;
+    border-radius: 2%;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 93%;
+    margin: 40px;
+    padding: 20px;
+    box-shadow: 0 0 2px #880c88;
+    text-align: center;
+  }
+
+  .content-right {
+    background-color: rgb(234, 195, 148);
+    border-radius: 5%;
+    margin: 10px;
+    padding: 15px;
+  }
+  .content-left {
+    background-color: bisque;
+    border-radius: 5%;
+    margin: 10px;
+    padding: 15px;
+  }
   .container {
+    text-align: center;
     width: 510px;
     margin: 0 auto;
     padding: 0 20px;
   }
   
+  
   .site-header {
-    min-width: 550px;
-    height: 186px;
-    margin-bottom: 50px;
-    padding-top: 30px;
+    width: 93%;
+    text-align: center;
+    height: 200px;
+    margin: 40px;
+    padding: 20px;
     background: #847462 no-repeat center url("img/gloevk-bg.jpg");
     background-size: cover;
     color: #ffffff;
@@ -69,32 +116,17 @@ body {
   }
   
   .yourself p {
-    display: outside;
     vertical-align: top;
-    width: 100%;
+    width:93%;
     margin: 0 5px;
-    background-repeat: no-repeat;
-    background-position: center top;
   }
   
   .yourself-info {
     padding-top: 15px;
-    background-image: url("img/furniture.svg");
-  }
-  
-  .yourself-info-cursive {
-    padding-top: 15px;
-    text-align: center;
-    background-image: url("img/lighting.svg");
-  }
-  
-  .yourself-accessories {
-    padding-top: 65px;
-    background-image: url("img/accessories.svg");
   }
   
   .description {
-    width: 100%;
+    width: 93%;
     margin: 40px;
     padding: 20px;
     box-shadow: 0 0 2px #880c88;
